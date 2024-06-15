@@ -1,7 +1,7 @@
 import { Typography, Button, Input } from "@material-tailwind/react";
 
-const LINKS = ["About Us", "Careers", "Press", "Blog", "Pricing"];
-const SUB_LINKS = ["Claim", "Privacy", "Terms"];
+const LINKS = ["", "", "", "", ""];
+const SUB_LINKS = ["", "", ""];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -37,13 +37,13 @@ export function Footer() {
           </div>
           <div className="w-full sm:w-[24rem] sm:min-w-[24rem]">
             <Typography variant="h6" color="blue-gray" className="mb-3">
-              Our Newsletter
+            Notre newsletter  
             </Typography>
             <div className="flex flex-col gap-3 sm:flex-row">
               {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" />
+              <Input color="gray" label="Entrer votre Email" />
               <Button color="gray" className="flex-shrink-0">
-                subscribe
+              s'abonner
               </Button>
             </div>
           </div>

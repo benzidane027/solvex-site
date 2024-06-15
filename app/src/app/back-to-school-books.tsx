@@ -14,50 +14,58 @@ const BOOKS = [
   {
     img: `/image/books/RectangleBig1.svg`,
     category: "Natasha Wing",
-    title: "The Night Before Kindergarten",
-    desc: "A heartwarming and humorous picture book that eases the jitters of starting kindergarten.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Ressources Humaines",
+    desc: "Gère les dossiers des employés, la paie, le recrutement, la présence et les évaluations. Il facilite une gestion RH efficace et l'auto-service des employés",
+    price: "$00",
+    offPrice: "$00",
   },
   {
     img: `/image/books/RectangleBig6.svg`,
     category: "James Patterson",
-    title: "Middle School: The Worst Years of My Life",
-    desc: "A funny and relatable novel about the challenges of navigating middle school.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Comptabilité",
+    desc: "Gère les transactions financières, la facturation, les paiements et les rapports financiers. Il prend en charge plusieurs devises et la réconciliation automatisée.",
+    price: "$00",
+    offPrice: "$00",
   },
   {
     img: `/image/books/RectangleBig2.svg`,
     category: "Helen W. Colby",
-    title: "College Student: A Comprehensive Checklist",
-    desc: "A practical guidebook that helps college students prepare for the transition to university.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Inventaire",
+    desc: "Suit les niveaux de stock, les mouvements et les opérations d'entrepôt. Il inclut des fonctionnalités pour l'évaluation des stocks, les transferts de stock et le réapprovisionnement automatisé.",
+    price: "$00",
+    offPrice: "$00",
   },
   {
     img: `/image/books/RectangleBig3.svg`,
     category: "Walter Pauk",
-    title: "How to Study in College",
-    desc: "A valuable resource for high school seniors and college freshmen, offering effective study strategies.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Ventes",
+    desc: "Gère les commandes clients, les devis et les contrats clients. Il simplifie le processus de vente avec des suivis automatisés et des outils de gestion client.",
+    price: "$00",
+    offPrice: "$00",
   },
   {
     img: `/image/books/RectangleBig4.svg`,
     category: "William Strunk Jr.",
-    title: "The Elements of Style",
-    desc: "A classic reference book on grammar and writing skills, essential for high school and college students.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Achat",
+    desc: "Gère les processus d'approvisionnement, les informations sur les fournisseurs et les commandes d'achat. Il inclut des demandes de devis (RFQ) et des accords d'achat automatisés.",
+    price: "$00",
+    offPrice: "$00",
   },
   {
     img: `/image/books/RectangleBig5.svg`,
     category: "William Strunk Jr.",
-    title: "The Elements of Style",
-    desc: "A classic reference book on grammar and writing skills, essential for high school and college students.",
-    price: "$99",
-    offPrice: "$79",
+    title: "Fabrication",
+    desc: "Gère le processus de fabrication, y compris la planification de la production, les ordres de travail et les nomenclatures (BOM). Il soutient les principes de fabrication lean.",
+    price: "$00",
+    offPrice: "$00",
+  },
+  {
+    img: `/image/books/RectangleBig5.svg`,
+    category: "William Strunk Jr.",
+    title: "CRM (Gestion de la Relation Client)",
+    desc: " Gère les interactions avec les clients, les pipelines de vente et le suivi des prospects. Il aide à améliorer les relations client et l'efficacité des ventes.",
+    price: "$00",
+    offPrice: "$00",
   },
 ];
 
@@ -85,15 +93,13 @@ export function BackToSchoolBooks() {
           
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-2">
-          Back-to-School Books
+        Outils fournis pour gérer votre entreprise
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
         >
-          We offer a wide range of study guides, test prep materials, and
-          reference books. Whether you&apos;re tackling calculus or diving into
-          Shakespeare, we&apos;ve got you covered.
+          Ces outils sont des logiciels soigneusement conçus pour gérer votre travail en douceur au sein de votre organisation
         </Typography>
         <div className="mt-20 flex items-center justify-center">
           <Tabs value={activeTab} className="w-full lg:w-8/12">

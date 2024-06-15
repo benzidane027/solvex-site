@@ -10,23 +10,24 @@ import {
 } from "@heroicons/react/24/solid";
 
 const FEATURES = [
-  {
-    icon: BanknotesIcon,
-    title: "We Support Educators",
-    description:
-      "Explore our educator resources, bulk ordering options, and special teacher discounts.",
-  },
+
   {
     icon: LifebuoyIcon,
-    title: "Support 24/7",
+    title: "Installer le système",
     description:
-      "Our dedicated customer support team is available to assist you 24 hours a day, 7 days a week.",
+      "Nos services incluent la préparation du système au sein de votre organisation pour son utilisation. ",
+  },
+  {
+    icon: BanknotesIcon,
+    title: "Apprendre à utiliser",
+    description:
+      "Nos services incluent l'apprentissage de l'utilisation du système et de la manière d'en bénéficier.",
   },
   {
     icon: TruckIcon,
-    title: "Easy Shopping, Quick Delivery",
+    title: "Nouveaux ajouts",
     description:
-      "We offer fast and reliable shipping, so you can focus on what matters most - your education",
+      "Nos services incluent l'ajout de fonctionnalités spéciales au système qui répondent aux besoins de votre entreprise.",
   },
 ];
 
@@ -35,14 +36,13 @@ export function GetYourBookFromUs() {
     <section className="px-8">
       <div className="container mx-auto mb-16 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          Get your book from us!
+        Prêt à commencer ?
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-5/12"
         >
-          Start your literary adventure today by exploring these captivating
-          worlds of words.
+          Vous pouvez nous contacter et nous sommes là pour vous aider
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-3">

@@ -1,4 +1,4 @@
-FROM node:20.14
+FROM blueriver/nextjs
 
 # set work directory
 

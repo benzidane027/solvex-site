@@ -4,25 +4,17 @@ import React from "react";
 import { Typography, Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 const FAQS = [
   {
-    title: "When does the Back-to-School Campaign start and end?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
+    title: "Comment nous tarifons le travail ?",
+    desc: "answer not written yet .",
   },
   {
     title:
-      "What types of discounts and offers can I expect during the campaign?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
+      "Qu'obtiendra l'utilisateur en contractant avec nous ?",
+      desc: "answer not written yet . ",
   },
   {
-    title: "Do you offer any discounts for educators and teachers?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
-  },
-  {
-    title: "Can I shop online during the campaign?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
-  },
-  {
-    title: "What if I can't find a specific book or item I need for school?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
+    title: "Quels sont les types de nos services ?",
+    desc: "answer not written yet .",
   },
 ];
 
@@ -35,14 +27,13 @@ export function Faq() {
       <div className="container mx-auto">
         <div className="text-center">
           <Typography variant="h1" color="blue-gray" className="mb-4">
-            Frequently Asked Questions
+            Questions fréquemment posées par les utilisateurs
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
           >
-            The Back-to-School Campaign is a special promotion designed to make
-            your return to school as smooth as possible.
+           Ces questions incluent des réponses qui aident l'utilisateur à mieux nous connaître
           </Typography>
         </div>
         <div className="mx-auto lg:max-w-screen-lg lg:px-20">

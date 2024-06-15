@@ -15,25 +15,25 @@ const CATEGORIES = [
   {
     img: "/image/blogs/blog-3.png",
     icon: HeartIcon,
-    title: "Fiction Books",
+    title: "meilleure performance",
     desc: "up to 40% OFF",
   },
   {
     img: "/image/blogs/blog-12.jpeg",
     icon: PuzzlePieceIcon,
-    title: "School Books",
+    title: "travail facile",
     desc: "up to 40% OFF",
   },
   {
     img: "/image/blogs/blog-10.jpeg",
     icon: GlobeEuropeAfricaIcon,
-    title: "Non-fiction Books",
+    title: "haute qualité",
     desc: "up to 40% OFF",
   },
   {
     img: "/image/blogs/blog-13.png",
     icon: MicrophoneIcon,
-    title: "SF & Fantasy Books",
+    title: "bonne expérience",
     desc: "up to 40% OFF",
   },
 ];
@@ -46,8 +46,7 @@ export function TopBookCategories() {
         Le meilleur que l'on puisse offrir
         </Typography>
         <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
-          Explore our diverse range of categories and embark on a reading
-          journey that suits your mood, passion, or curiosity.
+        Découvrez ce que nous pouvons vous offrir pour vous aider
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -61,18 +60,16 @@ export function TopBookCategories() {
               up to 40% OFF
             </Typography>
             <Typography variant="h4" className="mt-9" color="white">
-              Bestselling Books
+            Meilleures offres
             </Typography>
             <Typography
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
             >
-              Explore our extensive collection of textbooks, workbooks, novels,
-              and more. From preschool to post-grad, we have books for every age
-              and academic level.
+              Découvrez ce que nous proposons à travers nos nombreux services numériques
             </Typography>
             <Button size="sm" color="white">
-              Read More
+            Plus
             </Button>
           </CardBody>
         </Card>

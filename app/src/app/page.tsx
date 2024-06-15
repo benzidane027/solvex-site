@@ -18,7 +18,7 @@ export default function Campaign() {
       <TopBookCategories />
       <BackToSchoolBooks />
       <OtherBookOffers />
-      <CarouselFeatures />
+     {/*  <CarouselFeatures /> */}
       <GetYourBookFromUs />
       <Faq />
       <Footer />

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Navbar as MTNavbar,
   Collapse,
@@ -16,17 +17,19 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Contact Nous",
     icon: RectangleStackIcon,
+    href: "#",
   },
   {
-    name: "Account",
+    name: "à propos de nous",
     icon: UserCircleIcon,
+    href: "#",
   },
   {
-    name: "Docs",
+    name: "Nos services",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "#",
   },
 ];
 
@@ -70,13 +73,16 @@ export function Navbar() {
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <Typography color="blue-gray" className="text-lg font-bold">
-        <Image
-          width={128}
+       <Image
+          width={256}
           height={128}
-          className="w-5 h-5"
+          className="w-20 h-10"
           alt="SOLVEX APP"
-          src="https://www.material-tailwind.com/favicon.png"
-        />
+          src="/logos/solvex-logo.svg"
+        /> 
+       
+         
+        
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -86,8 +92,8 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Log in</Button>
+        <div className="hidden items-center gap-2 lg:flex" style={{visibility:'hidden'}}>
+          <Button variant="text" >Log in</Button>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
             <Button color="gray">blocks</Button>
           </a>
