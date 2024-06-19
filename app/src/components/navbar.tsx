@@ -74,8 +74,8 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography color="blue-gray" className="text-lg font-bold">
        <Image
-          width={256}
-          height={128}
+          width={300}
+          height={150}
           className="w-20 h-10"
           alt="SOLVEX APP"
           src="/logos/solvex-logo.svg"

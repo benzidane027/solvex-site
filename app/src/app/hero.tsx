@@ -26,66 +26,25 @@ function Hero() {
             variant="lead"
             className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28"
           >
-           Offen solvex Services propose des solutions ERP complètes pour divers secteurs, incluant l'implémentation, l'intégration, la personnalisation, et le support.
+            Offen solvex Services propose des solutions ERP complètes pour
+            divers secteurs, incluant l'implémentation, l'intégration, la
+            personnalisation, et le support.
           </Typography>
           <Button size="lg" color="gray">
-          Voir les offres
+            Voir les offres
           </Button>
         </div>
         <div className="mt-40 grid gap-6 lg:mt-0">
-          <div className="grid grid-cols-4 gap-6">
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle8.svg"
-              className="rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle9.svg"
-              className="-mt-28 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle10.svg"
-              className="-mt-14 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle11.svg"
-              className="-mt-20 rounded-lg shadow-md"
-              alt="flowers"
-            />
-          </div>
-          <div className="grid grid-cols-4 gap-6">
-            <div></div>
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle12.svg"
-              className="-mt-28 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle13.svg"
-              className="-mt-14 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle14.svg"
-              className="-mt-20 rounded-lg shadow-md"
-              alt="flowers"
-            />
+          <div className="content-center">
+            <div>
+              <Image
+                width={600}
+                height={600}
+                src="/image/solvex-site.svg"
+                className="-mt-20"
+                alt="flowers"
+              />
+            </div>
           </div>
         </div>
       </div>
