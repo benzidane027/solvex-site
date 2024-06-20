@@ -5,12 +5,12 @@ import BookCard from "@/components/book-card";
 
 const OTHER_BOOKS = [
   {
-    img: `/image/books/RectangleBig1.svg`,
+    img: `/image/books/achate-service-loge.svg`,
     category: "Frank Herbert",
     title: "Achat Service",
     desc: "Achat Service.",
-    price: "$00",
-    offPrice: "$00",
+    price: "",
+    offPrice: "",
   },
  /*  {
     img: `/image/books/RectangleBig7.svg`,
