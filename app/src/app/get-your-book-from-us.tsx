@@ -47,7 +47,7 @@ export function GetYourBookFromUs() {
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map(({ icon, title, description }) => (
-          <FeatureCard key={title} icon={icon} title={title}>
+          <FeatureCard key={title} icon={icon}  title={title}>
             {description}
           </FeatureCard>
         ))}

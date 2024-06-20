@@ -13,14 +13,15 @@ function Hero() {
             color="red"
             className="text-3xl !leading-snug"
           >
-            {/* 40% OFF */}
+           
           </Typography>
           <Typography
             variant="h1"
-            color="blue-gray"
-            className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl"
+            
+            className="mb-2 max-w-lg text-3xl !leading-snug lg:mb-3 lg:text-5xl"
           >
-            Solvex for Smart Solutions
+            <span style={{color:"#0f22b2"}}>SOLVEX<br/> For Smart Solutions</span>
+            
           </Typography>
           <Typography
             variant="lead"
@@ -30,7 +31,7 @@ function Hero() {
             divers secteurs, incluant l'implémentation, l'intégration, la
             personnalisation, et le support.
           </Typography>
-          <Button size="lg" color="gray">
+          <Button size="lg" style={{backgroundColoré:"#0f22b2"}}>
             Voir les offres
           </Button>
         </div>

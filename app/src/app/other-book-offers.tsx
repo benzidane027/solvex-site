@@ -6,9 +6,9 @@ import BookCard from "@/components/book-card";
 const OTHER_BOOKS = [
   {
     img: `/image/books/achate-service-loge.svg`,
-    category: "Frank Herbert",
-    title: "Achat Service",
-    desc: "Achat Service.",
+    category: "",
+    title: "Prestation de service",
+    desc: "hhh",
     price: "",
     offPrice: "",
   },
