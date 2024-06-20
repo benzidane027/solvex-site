@@ -107,7 +107,7 @@ export function BackToSchoolBooks() {
             <TabsHeader
               className="h-12 bg-transparent"
               indicatorProps={{
-                className: "!bg-gray-900 rounded-lg",
+                className: "!bg-gray-900 rounded-lg"
               }}
             >
               {BOOKS_TABS.map((book) => (
