@@ -98,6 +98,7 @@ export function BackToSchoolBooks() {
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
+          color="blue-gray"
         >
           Ces outils sont des logiciels soigneusement conçus pour gérer votre travail en douceur au sein de votre organisation
         </Typography>
