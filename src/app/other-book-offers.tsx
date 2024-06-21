@@ -8,7 +8,7 @@ const OTHER_BOOKS = [
     img: `/image/books/achate-service-loge.svg`,
     category: "",
     title: "Prestation de service",
-    desc: "hhh",
+    desc: "Le module de gestion des demandes de prestations est conçu pour faciliter la gestion et le suivi des demandes de services adressées aux prestataires.",
     price: "",
     offPrice: "",
   },
