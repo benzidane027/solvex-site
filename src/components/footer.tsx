@@ -12,13 +12,14 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              href="https://www.material-tailwind.com"
+              href="#"
               target="_blank"
               variant="h4"
               className="mb-6"
             >
               SOLVEX APP
             </Typography>
+            Email: contact@solvex.top
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
@@ -51,7 +52,7 @@ export function Footer() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
           <Typography className="text-center font-normal !text-gray-700">
             &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
+            <a href="#" target="_blank">
             SOLVEX APP
             </a>{" "}
             by{" "}

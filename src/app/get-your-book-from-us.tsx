@@ -10,7 +10,6 @@ import {
 } from "@heroicons/react/24/solid";
 
 const FEATURES = [
-
   {
     icon: LifebuoyIcon,
     title: "Installer le système",
@@ -34,24 +33,28 @@ const FEATURES = [
 export function GetYourBookFromUs() {
   return (
     <section className="px-8">
-      <div className="container mx-auto mb-16 text-center">
+      {/* <div className="container mx-auto mb-16 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-        Prêt à commencer ?
+          Prêt à commencer ?
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-5/12"
         >
-          Vous pouvez nous contacter et nous sommes là pour vous aider
+          Vous avez un projet ERP en tête ? Contactez Solvex dès aujourd’hui
+          pour discuter de vos besoins et obtenir une solution sur mesure qui
+          propulsera votre entreprise vers de nouveaux sommets.
+          <br />
+          Solvex - Transformez vos idées en solutions
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map(({ icon, title, description }) => (
-          <FeatureCard key={title} icon={icon}  title={title}>
+          <FeatureCard key={title} icon={icon} title={title}>
             {description}
           </FeatureCard>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -27,11 +27,10 @@ function Hero() {
             variant="lead"
             className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28"
           >
-            Offen solvex Services propose des solutions ERP complètes pour
-            divers secteurs, incluant l'implémentation, l'intégration, la
-            personnalisation, et le support.
+           Chez Solvex, nous transformons vos idées en solutions technologiques, personnalisée, adaptées aux besoins uniques de chaque client.
+           Nos solutions vous permettent de gérer efficacement vos opérations et de dynamiser votre entreprise grâce à des outils robustes et flexibles
           </Typography>
-          <Button size="lg" style={{backgroundColoré:"#0f22b2"}}>
+          <Button size="lg" style={{backgroundColor:"#000"}}>
             Voir les offres
           </Button>
         </div>

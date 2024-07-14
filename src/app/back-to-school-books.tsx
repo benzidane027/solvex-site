@@ -70,12 +70,12 @@ const BOOKS = [
 ];
 
 const BOOKS_TABS = [
-  "R.Humaines",
-  "Comptabilite",
-  "Inventaire",
-  "ventes",
-  "Achat",
-  "Fabrication"
+  // "R.Humaines",
+  // "Comptabilite",
+  // "Inventaire",
+  // "ventes",
+  // "Achat",
+  // "Fabrication"
 
 ];
 

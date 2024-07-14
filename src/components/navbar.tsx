@@ -8,27 +8,27 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import {
-  RectangleStackIcon,
+  ChatBubbleLeftRightIcon,
   UserCircleIcon,
-  CommandLineIcon,
+  NewspaperIcon,
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
   {
-    name: "Contact Nous",
-    icon: RectangleStackIcon,
+    name: "Contactez nous",
+    icon: ChatBubbleLeftRightIcon,
     href: "#",
   },
   {
-    name: "à propos de nous",
+    name: "A propos de nous",
     icon: UserCircleIcon,
     href: "#",
   },
   {
     name: "Nos services",
-    icon: CommandLineIcon,
+    icon: NewspaperIcon,
     href: "#",
   },
 ];
