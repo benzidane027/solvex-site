@@ -69,7 +69,7 @@ const BOOKS = [
   },
 ];
 
-const BOOKS_TABS = [
+const BOOKS_TABS:any[] = [
   // "R.Humaines",
   // "Comptabilite",
   // "Inventaire",

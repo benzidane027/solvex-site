@@ -68,7 +68,7 @@ export function TopBookCategories() {
             >
               Découvrez ce que nous proposons à travers nos nombreux services numériques
             </Typography>
-            <Button size="sm" color="white">
+            <Button  size="sm" color="white">
             Plus
             </Button>
           </CardBody>
