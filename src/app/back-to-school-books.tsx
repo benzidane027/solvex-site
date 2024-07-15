@@ -126,7 +126,7 @@ export function BackToSchoolBooks() {
           </Tabs>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-1 items-start gap-x-6 gap-y-20 md:grid-cols-2 xl:grid-cols-3">
+      <div className="container mx-auto grid grid-cols-1 items-start gap-x-6 gap-y-20 md:grid-cols-3 xl:grid-cols-4">
         {BOOKS.map((props, key) => (
           <BookCard key={key} {...props} />
         ))}

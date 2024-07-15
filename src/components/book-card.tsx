@@ -27,7 +27,7 @@ import {
   }: BookCardProps) {
     return (
       <Card color="transparent" shadow={false}>
-        <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-6">
+        <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-2">
           <Image
             width={768}
             height={768}
