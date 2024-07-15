@@ -84,7 +84,7 @@ export function BackToSchoolBooks() {
 
   return (
     <section className="px-8 pt-20 pb-10">
-      <div className="container mx-auto mb-20 text-center">
+      <div className="container mx-auto mb-20 text-center" id="service">
         <Typography
           variant="paragraph"
           color="blue-gray"

@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="mt-10 px-8 pt-20">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-end justify-center gap-8 md:justify-between">
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left" id="contact">
             <Typography
               as="a"
               href="#"

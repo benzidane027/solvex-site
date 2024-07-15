@@ -26,44 +26,52 @@ export function Faq() {
   const [open, setOpen] = React.useState(0);
   const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
-  return (<></>
-    // <section className="px-8 py-40">
-    //   <div className="container mx-auto">
-    //     <div className="text-center">
-    //       <Typography variant="h1" color="blue-gray" className="mb-4">
-    //         Questions fréquemment posées par les utilisateurs
-    //       </Typography>
-    //       <Typography
-    //         variant="lead"
-    //         className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
-    //       >
-    //         Ces questions incluent des réponses qui aident l'utilisateur à mieux
-    //         nous connaître
-    //       </Typography>
-    //     </div>
-    //     <div className="mx-auto lg:max-w-screen-lg lg:px-20">
-    //       {FAQS.map(({ title, desc }, key) => (
-    //         <Accordion
-    //           key={key}
-    //           open={open === key + 1}
-    //           onClick={() => handleOpen(key + 1)}
-    //         >
-    //           <AccordionHeader className="text-left text-gray-900">
-    //             {title}
-    //           </AccordionHeader>
-    //           <AccordionBody>
-    //             <Typography
-    //               color="blue-gray"
-    //               className="font-normal text-gray-500"
-    //             >
-    //               {desc}
-    //             </Typography>
-    //           </AccordionBody>
-    //         </Accordion>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </section>
+  return (
+    <section className="px-8 mt-20">
+      <div className="container mx-auto">
+        <div id="about" className="text-center">
+          <Typography variant="h1" color="blue-gray" className="mb-4">
+            Solvex - Votre Partenaire Technologique
+          </Typography>
+          <Typography
+            variant="lead"
+            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
+          >
+            Chez Solvex, nous sommes passionnés par l’innovation et la
+            technologie. Fondée sur les principes de qualité, d’intégrité et
+            d’excellence, notre mission est de transformer les idées de nos
+            clients en solutions technologiques performantes et sur mesure.
+          </Typography>
+
+          <Typography variant="h1" color="blue-gray" className="mb-4">
+            Notre Vision
+          </Typography>
+          <Typography
+            variant="lead"
+            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
+          >
+            Nous croyons en un avenir où la technologie facilite la vie des
+            entreprises et de leurs employés. Notre vision est de devenir un
+            leader dans le domaine du développement ERP, d’applications mobiles
+            et de sites web, en offrant des solutions innovantes qui stimulent
+            la croissance et l’efficacité.
+          </Typography>
+
+          <Typography variant="h1" color="blue-gray" className="mb-4">
+            Rejoignez-nous dans Notre Voyage Technologique
+          </Typography>
+          <Typography
+            variant="lead"
+            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
+          >
+            Nous vous invitons à explorer nos services et à découvrir comment
+            Solvex peut vous aider à atteindre vos objectifs. Contactez-nous dès
+            aujourd’hui pour discuter de vos besoins et commencer votre voyage
+            technologique avec nous.
+          </Typography>
+        </div>
+      </div>
+    </section>
   );
 }
 

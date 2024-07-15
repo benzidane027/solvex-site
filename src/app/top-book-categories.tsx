@@ -15,38 +15,38 @@ const CATEGORIES = [
   {
     img: "/image/blogs/blog-3.png",
     icon: HeartIcon,
-    title: "meilleure performance",
-    desc: "up to 40% OFF",
+    title: "Modularité",
+    desc: "Choisissez les modules dont vous avez besoin",
   },
   {
     img: "/image/blogs/blog-12.jpeg",
     icon: PuzzlePieceIcon,
-    title: "travail facile",
-    desc: "up to 40% OFF",
+    title: "Support Continu ",
+    desc: "Bénéficiez d’un support technique et d’une maintenance continue pour garantir le bon fonctionnement de vos systèmes.",
   },
   {
     img: "/image/blogs/blog-10.jpeg",
     icon: GlobeEuropeAfricaIcon,
-    title: "haute qualité",
-    desc: "up to 40% OFF",
+    title: "Expertise et Innovation",
+    desc: "Notre équipe est composée de développeurs expérimentés permettant de vous offrir des solutions performantes et innovantes.",
   },
   {
     img: "/image/blogs/blog-13.png",
     icon: MicrophoneIcon,
-    title: "bonne expérience",
-    desc: "up to 40% OFF",
+    title: "Facilité d’utilisation",
+    desc: "Nos systèmes sont conçus pour être intuitifs et faciles à utiliser, permettant une adoption rapide par vos équipes.F",
   },
 ];
 
 export function TopBookCategories() {
   return (
-    <section className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
-      <div className="mb-20 grid place-items-center text-center">
+    <section  className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
+      <div  className="mb-20 grid place-items-center text-center">
         <Typography variant="h2" color="blue-gray" className="my-3">
         Le meilleur que l'on puisse offrir
         </Typography>
         <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
-        Découvrez ce que nous pouvons vous offrir pour vous aider
+        Solutions personnalisées : Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et créer des solutions qui y répondent parfaitement.
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

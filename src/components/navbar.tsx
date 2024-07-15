@@ -19,17 +19,17 @@ const NAV_MENU = [
   {
     name: "Contactez nous",
     icon: ChatBubbleLeftRightIcon,
-    href: "#",
+    href: "#contact",
   },
   {
     name: "A propos de nous",
     icon: UserCircleIcon,
-    href: "#",
+    href: "#about",
   },
   {
     name: "Nos services",
     icon: NewspaperIcon,
-    href: "#",
+    href: "#service",
   },
 ];
 
@@ -44,7 +44,7 @@ function NavItem({ children, href }: NavItemProps) {
       <Typography
         as="a"
         href={href || "#"}
-        target={href ? "_blank" : "_self"}
+        // target={href ? "_blank" : "_self"}
         variant="paragraph"
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
